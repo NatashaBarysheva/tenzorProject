@@ -107,6 +107,8 @@ body {
     height: 50px;
     background-color: black;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -298,13 +300,13 @@ footer {
 
 form {
     position: relative;
-    width: 300px;
-    margin: 0 auto;
+    width: 44%;
+    margin: -20 auto;
 }
 
 .search__field {
-    margin-top: 4%;
-    width: 0px;
+    position: relative;
+    top: 30px;
 }
 
 .search__field input {
@@ -366,6 +368,8 @@ form {
     position: relative;
     top: 70px;
 }
+
+
 
 .artist_card_music {
     width: 25%;
